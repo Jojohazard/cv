@@ -1,0 +1,55 @@
+main {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.section__title {
+    width: 150px;
+    border-bottom: 3px solid var(--header-background-color);
+    padding-bottom: 2px;
+}
+
+.skills__list,
+.languages__list {
+    column-gap: 5px;
+    row-gap: 5px;
+    flex-wrap: wrap;
+}
+
+.skill,
+.language {
+    background-color: var(--header-accent-color-2);
+    border-radius: 100vh;
+    padding: 2px 8px;
+    color: var(--header-background-color);
+    border: 1px solid var(--header-background-color);
+}
+
+.content {
+    padding: 10px;
+}
+
+.education__list,
+.expierience__list {
+    flex-direction: column;
+    row-gap: 8px;
+}
+
+.education__item,
+.expierience__item {
+    border-bottom: 1px solid var(--header-background-color);
+    padding-bottom: 5px;
+}
+
+.education__list .education__item:last-child,
+.expierience__list .expierience__item:last-child
+ {
+    border-bottom: none;
+}
+
+.explanation {
+    display: initial;
+    list-style: inside;
+    margin-left: 0 10px;
+}

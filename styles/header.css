@@ -1,0 +1,74 @@
+header {
+    background-color: var(--header-background-color);
+    color: var(--header-foreground-color);
+    flex: 0 0 33%;
+    padding: 0 5px;
+
+    /* Plakt de volledige header vast aan het scherm */
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    /* Altijd precies 100% van de schermhoogte */
+    box-sizing: border-box;
+}
+
+.header__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    /* Neemt de volle hoogte van de header over */
+    padding: 20px 0;
+    /* Ruimte aan boven- en onderkant */
+    box-sizing: border-box;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+    row-gap: 20px;
+}
+
+.profile__photo {
+    width: 150px;
+}
+
+.contact__list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+
+    /* Duwt de contactlijst altijd naar de onderkant van het scherm */
+    margin-top: auto;
+}
+
+.contact__list a {
+    color: inherit;
+}
+
+.ref {
+    display: flex;
+    background-color: var(--header-accent-color-1);
+    text-decoration: none;
+    justify-content: center;
+    width: 300px;
+    padding: 5px 0;
+    border-radius: 100vh;
+    column-gap: 5px;
+}
+
+.socials__item {
+    margin: 10px;
+    padding: 10px 0 0 0;
+}
+
+.socials__list {
+    justify-content: center;
+    column-gap: 5px;
+}
+
+.logo {
+    font-size: 28px;
+}
