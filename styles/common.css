@@ -1,7 +1,7 @@
 :root {
     --header-background-color: #1D4B80;
     --header-foreground-color: #fff;
-    --header-accent-color-1: #0b223c;
+    --header-accent-color-1: #082e5a;
     --header-accent-color-2: #cbe0f8;
 }
 
@@ -33,10 +33,6 @@ h1, h2, h3 {
 
 h2 {
     color: var(--header-background-color);
-}
-
-h3 {
-    font-size: 16px;
 }
 
 a {

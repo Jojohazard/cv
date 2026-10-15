@@ -1,7 +1,7 @@
 main {
     display: flex;
     flex-direction: column;
-    row-gap: 10px;
+    row-gap: 2px;
 }
 
 .section__title {
@@ -24,6 +24,7 @@ main {
     padding: 2px 8px;
     color: var(--header-background-color);
     border: 1px solid var(--header-background-color);
+    font-weight: bol;
 }
 
 .content {
@@ -39,17 +40,36 @@ main {
 .education__item,
 .expierience__item {
     border-bottom: 1px solid var(--header-background-color);
-    padding-bottom: 5px;
+    padding-bottom: 10px;
+}
+
+.education__item .school {
+    margin-top: 5px;
+}
+
+.expierience__list .explanation {
+    margin-left: 10px;
 }
 
 .education__list .education__item:last-child,
-.expierience__list .expierience__item:last-child
- {
+.expierience__list .expierience__item:last-child {
     border-bottom: none;
+}
+
+.expierience__item,
+.education__item {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
 }
 
 .explanation {
     display: initial;
     list-style: inside;
-    margin-left: 0 10px;
+    margin: 5px 10px 0 0;
+}
+
+.date {
+    color: #4b4b4b;
+    font-size: 13px;
 }
