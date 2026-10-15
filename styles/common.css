@@ -9,6 +9,7 @@ body {
     display: flex;
     margin: 0;
     font-family: "Ubuntu";
+    font-size: 19px;
 }
 
 .vertical__wrapper {
@@ -29,6 +30,7 @@ main {
 
 h1, h2, h3 {
     margin: 0;
+    white-space: nowrap;
 }
 
 h2 {

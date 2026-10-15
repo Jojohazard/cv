@@ -1,13 +1,14 @@
 main {
     display: flex;
     flex-direction: column;
-    row-gap: 2px;
+    row-gap: 5px;
+    padding: 20px;
 }
 
 .section__title {
-    width: 150px;
+    width: 170px;
     border-bottom: 3px solid var(--header-background-color);
-    padding-bottom: 2px;
+    padding-bottom: 3px;
 }
 
 .skills__list,
